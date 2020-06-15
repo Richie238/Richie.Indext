@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 25%;
+	background-color: #C0C0C0;
+	position: fixed;
+	height: 100%;
+	overflow: auto;	
+	font-family:arial, "lucida console", sans-serif; /* Schriftart */
+}
+
+li a { /*bezieht sich auf alle Elemente innerhalb eines li a -Tags  */
+	display: block;
+	color: #000080;
+	padding: 15px 0px 15px 10px;
+	text-decoration: none;
+}
+
+li a.aktiv { /* bezieht sich nur auf Element li a mit der href Bezeichnung aktiv */
+	background-color: yellow;
+	color: red;
+}
+
+li a:hover:not(.aktiv) { /* Angaben zu dem angeklickten Link  und wo href Bezeichnung nicht aktiv ist */
+	background-color: #B8860B; 
+	color: white;
+}
+
+#div2 { /* Angaben zur Navigationsleiste */
+	margin-left: 25%;
+	padding: 1px 15px 2px 23px;
+	height: 100%;
+}
+
+h1{
+	font-family:arial, "lucida console", sans-serif; /* Schriftart */
+	
+}
