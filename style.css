@@ -16,18 +16,18 @@ ul {
 
 li a { /*bezieht sich auf alle Elemente innerhalb eines li a -Tags  */
 	display: block;
-	color: #000080;
+	color: black;
 	padding: 15px 0px 15px 10px;
 	text-decoration: none;
 }
 
 li a.aktiv { /* bezieht sich nur auf Element li a mit der href Bezeichnung aktiv */
-	background-color: yellow;
-	color: red;
+	background-color: #0B3B39;
+	color: white;
 }
 
 li a:hover:not(.aktiv) { /* Angaben zu dem angeklickten Link  und wo href Bezeichnung nicht aktiv ist */
-	background-color: #B8860B; 
+	background-color: #6E6E6E; 
 	color: white;
 }
 
